@@ -55,7 +55,7 @@ describe('useText', () => {
     act(() => result.current.onResetText());
 
     // then
-    it('text 는 빈 값으로 initial text 값으로 초기화 된다.', () => {
+    it('text 는 useText 로 넘긴 text 값으로 초기화 된다.', () => {
       expect(INITIAL_TEXT).toBe(result.current.text);
     });
   });
