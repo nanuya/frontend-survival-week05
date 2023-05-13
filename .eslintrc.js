@@ -55,6 +55,7 @@ module.exports = {
         '**/*.test.tsx',
       ],
     }],
+    'import/prefer-default-export': 0,
     'import/extensions': ['error', 'ignorePackages', {
       js: 'never',
       jsx: 'never',
